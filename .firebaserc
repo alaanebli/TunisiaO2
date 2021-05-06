@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tunisiao2": {
+      "hosting": {
+        "app": [
+          "tunisiao2"
+        ]
+      }
+    }
+  }
+}
