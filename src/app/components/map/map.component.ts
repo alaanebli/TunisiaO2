@@ -85,7 +85,7 @@ export class MapComponent implements OnInit {
   }
 
   constructor(http:HttpClient,public dialog: MatDialog,private db: AngularFireDatabase,public ds : DataService,public loc:LocationService) { 
-    this.apiLoaded= http.jsonp('https://maps.googleapis.com/maps/api/js?key=AIzaSyBLavjV713JBZEj4Ajyf0huZLjHM_M96d0&callback=initMap&libraries=&v=weekly&language=en&region=JP','callback')
+    this.apiLoaded= http.jsonp('https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly&language=en&region=JP','callback')
     .pipe(map(()=> true),catchError(()=> of(false)))
   }
   
