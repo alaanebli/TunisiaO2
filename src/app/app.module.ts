@@ -39,14 +39,14 @@ import { LocationDialogComponent } from './components/location-dialog/location-d
     AngularFireDatabaseModule,
     AngularFireModule.initializeApp(
       {
-        apiKey: "AIzaSyBLavjV713JBZEj4Ajyf0huZLjHM_M96d0",
-        authDomain: "tunisiao2.firebaseapp.com",
-        databaseURL: "https://tunisiao2-default-rtdb.europe-west1.firebasedatabase.app",
-        projectId: "tunisiao2",
-        storageBucket: "tunisiao2.appspot.com",
-        messagingSenderId: "402836828685",
-        appId: "1:402836828685:web:e5c3ffa388c4e3b5011b44",
-        measurementId: "G-GWCTPX9KKE"
+        apiKey: "",
+        authDomain: "m",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: "",
+        measurementId: ""
       }),
 
   ],
